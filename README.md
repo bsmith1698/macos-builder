@@ -1,5 +1,5 @@
 > [!WARNING]
->  Deprecated CI scripts, I don't like piracy
+>  This CI scripts are out of order as the intel dmg is no longer being built
 
 ### Can I play with an APK?
 
