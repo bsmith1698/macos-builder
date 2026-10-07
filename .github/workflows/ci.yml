@@ -27,6 +27,9 @@ jobs:
   ci:
     needs: read-repo-files
     if: (!cancelled())
+    permissions:
+      contents: read
+      id-token: write
     uses: ./.github/workflows/main.yml
     with:
       publish: false
