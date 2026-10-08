@@ -6,6 +6,7 @@
 
 [![CI](https://github.com/bsmith1698/mcpelauncher-intel-mac/actions/workflows/ci.yml/badge.svg)](https://github.com/bsmith1698/mcpelauncher-intel-mac/actions/workflows/ci.yml)
 ![Platform](https://img.shields.io/badge/platform-macOS%20Intel%20(x86__64)-lightgrey?logo=apple)
+[![Release](https://img.shields.io/github/v/release/bsmith1698/mcpelauncher-intel-mac?include_prereleases&label=release)](https://github.com/bsmith1698/mcpelauncher-intel-mac/releases)
 ![Upstream](https://img.shields.io/badge/fork%20of-minecraft--linux%2Fmacos--builder-blue?logo=github)
 
 </div>
@@ -31,19 +32,18 @@ This fork turns the Intel build back on and pins newer launcher sources so sign-
 
 ## Download
 
-1. Open the [latest successful CI run](https://github.com/bsmith1698/mcpelauncher-intel-mac/actions/workflows/ci.yml?query=is%3Asuccess).
-2. Scroll to **Artifacts** and download the DMG that matches your macOS version:
+Grab the DMG for your macOS version from the [**Releases page**](https://github.com/bsmith1698/mcpelauncher-intel-mac/releases):
 
-   | Artifact | Minimum macOS |
-   | --- | --- |
-   | `dmg-10.10.0` | 10.10 Yosemite |
-   | `dmg-10.12.0` | 10.12 Sierra |
-   | `dmg-10.13.0` | 10.13 High Sierra |
+| File ends in | Minimum macOS |
+| --- | --- |
+| `_macOS_10.13.0.dmg` | 10.13 High Sierra or newer (pick this one on a current Mac) |
+| `_macOS_10.12.0.dmg` | 10.12 Sierra |
+| `_macOS_10.10.0.dmg` | 10.10 Yosemite |
 
-3. Unzip, open the DMG, and drag the launcher into **Applications**.
-4. The build isn't notarized, so the first time you open it, right-click the app and choose **Open**.
+1. Open the DMG and drag the launcher into **Applications**.
+2. The build isn't notarized, so the first time you open it, right-click the app and choose **Open**.
 
-> GitHub artifacts expire after 90 days and require a GitHub login to download.
+Newer builds from the latest commits are also available as artifacts on [successful CI runs](https://github.com/bsmith1698/mcpelauncher-intel-mac/actions/workflows/ci.yml?query=is%3Asuccess). These need a GitHub login and expire after 90 days.
 
 ## Build it yourself
 
